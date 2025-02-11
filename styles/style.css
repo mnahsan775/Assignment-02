@@ -63,3 +63,34 @@ nav{
     border: none;
 }
 /* navbar finish */
+
+
+
+
+
+/* RESPONSIVE PART */
+@media screen and (max-width: 430px) {
+    /* navbar */
+    nav{
+        border: 1px solid orange;
+        margin-top: 0;
+    }
+    .school > img{
+        margin: 12px 0 12px 16px;
+    }
+    .menu{
+        margin: 20px 16px 20px 0;
+    }
+    .hamburger-menu{
+        width: 23px;
+        height: 5px;
+        border-radius: 8px;
+        margin: 6px 0;
+        background-color: black;
+    }
+    .school-heading,
+    .menubar-list,
+    .contact-btn{
+        display: none;
+    }
+}
