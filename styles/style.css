@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Shared Style */
+.quicksand-regular{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.sizing{
+    max-width: 1158.61px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* Shared style finish */
+
+
+/* navbar start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.school{
+    display: flex;
+    align-items: center;
+}
+.school-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+.menubar-list{
+    display: flex;
+    list-style: none;
+    margin: 16px 186px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    gap: 32px;
+}
+.home{
+    color: orange;
+}
+.about{
+    color: skyblue;
+}
+.facilities{
+    color: #05d4df;
+}
+.admission{
+    color: #5d58ef;
+}
+.contact-btn{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 10px 10px;
+    background-color: orange;
+    border-radius: 12px;
+    border: none;
+}
+/* navbar finish */
