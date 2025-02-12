@@ -417,8 +417,7 @@ footer{
     }
     .class-box-container{
         flex-direction: column;
-        margin-left:16.5px;
-        margin-right:16.5px ;
+        align-items: center;
     }
     .arrow-container{
         display: none;
