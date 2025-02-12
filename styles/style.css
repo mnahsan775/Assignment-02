@@ -57,11 +57,16 @@ nav{
     font-size: 1.25rem;
     font-weight: 600;
     color: #ffffff;
-    padding: 10px 10px;
+    padding: 10px 60.5px;
     background-color: orange;
     border-radius: 12px;
     border: none;
+    transition: 0.3s ease;
 }
+.contact-btn:hover{
+    background-color: rgb(158, 105, 7);
+}
+
 /* Navbar Finish */
 /* Banner Start */
 .banner{
@@ -96,17 +101,19 @@ nav{
     color: #ffffff;
     background-color: black;
     border-radius: 12px;
-    padding: 10px 10px;
+    padding: 10px 47px;
     border: none;
+    transition: 0.3s ease;
 }
-.banner-img > img{
-   
+.banner-btn:hover{
+    background-color: #202020;
 }
 /* Banner Finish */
 /* Standard Curriculum Start */
 .standard-part{
-    background-image: url('../assets/bg.png');
+    background-image: url("../assets/bg.png");
     background-repeat: no-repeat;
+    
 }
 .stand-heading{
     font-weight: bold;
@@ -129,9 +136,11 @@ nav{
     background: linear-gradient(to bottom,rgba(210, 177, 253, 0.7), transparent);
 }
 .class-level{
+    border-radius: 18.86px;
     text-align: center;
     align-items: center;
-    border: 1px solid red;
+    width: 367px;
+    height: 476px;
 }
 .class-img{
     margin: 52px 0 32px;
@@ -149,11 +158,16 @@ nav{
     margin-bottom: 34px;
     
 }
+a{
+    text-decoration: none;
+    
+}
 .class-btn{
     font-size: 1rem;
     font-weight: bold;
     border: none;
 }
+
 .kinder-btn{
     color: #64C8FF;
 }
@@ -209,8 +223,8 @@ nav{
 
 /* Our Stories Start */
 .our-stories-section{
-
-    /* border: 1px solid black; */
+    background-image: url("../assets/bg.png");
+    background-repeat: no-repeat;
     background: linear-gradient(to top,rgba(254, 163, 1, 0.4), transparent);
 }
 .stories-heading{
@@ -224,10 +238,8 @@ nav{
     gap: 19px;
 }
 .fun-toddler{
-    /* border: 1px solid black; */
     border-bottom-right-radius: 16px;
     border-bottom-left-radius: 16px;
-    /* margin: 0 18px 0 140px; */
 }
 .bg-color{
     background-color: #ffffff;
@@ -287,6 +299,11 @@ nav{
     color: #ffffff;
     border-radius: 12px;
     border: none;
+    transition: 0.3s ease;
+
+}
+.stories-btn:hover{
+    background-color: #202020;
 }
 .stories-btn-test{
     text-align: center;
@@ -396,6 +413,7 @@ footer{
     }
     .class-box-container{
         flex-direction: column;
+        margin-left:22px;
     }
     .arrow-container{
         display: none;
@@ -414,12 +432,13 @@ footer{
         margin-left: 16px;
      }
      .date{
-    font-size: 9px;
-    padding: 6px 11px;
+        font-size: 9px;
+        padding: 6px 11px;
      }
      .four-boxes-heading{
         font-size: 9px;
      }
+     /* footer part */
      .footer-section{
         flex-direction: column;
         margin-left: 16px;
