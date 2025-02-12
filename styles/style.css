@@ -112,8 +112,7 @@ nav{
 /* Standard Curriculum Start */
 .standard-part{
     background-image: url("../assets/bg.png");
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat; 
 }
 .stand-heading{
     font-weight: bold;
@@ -155,19 +154,16 @@ nav{
     font-weight: 600;
     font-size: 1rem;
     color: #808080;
-    margin-bottom: 34px;
-    
+    margin-bottom: 34px; 
 }
 a{
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 .class-btn{
     font-size: 1rem;
     font-weight: bold;
     border: none;
 }
-
 .kinder-btn{
     color: #64C8FF;
 }
@@ -192,7 +188,6 @@ a{
     margin: 80px 0 60px;
     transition: 0.45s ease;
 }
-
 .arr div{
     position: absolute;
     height: 13px;
@@ -238,11 +233,17 @@ a{
     gap: 19px;
 }
 .fun-toddler{
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
     border-bottom-right-radius: 16px;
     border-bottom-left-radius: 16px;
 }
 .bg-color{
     background-color: #ffffff;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
 }
 .fun-tod-img{
     border-top-right-radius: 16px;
@@ -275,10 +276,15 @@ a{
 .four-boxes-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 19px;
+    gap: 19px;  
+}
+.border-radius{
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
 }
 .four-box-img{
-    border-radius: 16px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
 }
 .four-boxes-heading{
     padding: 20px 37px 28px;
@@ -300,7 +306,6 @@ a{
     border-radius: 12px;
     border: none;
     transition: 0.3s ease;
-
 }
 .stories-btn:hover{
     background-color: #202020;
@@ -351,7 +356,6 @@ footer{
     color: #ffffff;
     margin-bottom: 32px;
 }
-
 .list{
     font-weight: 500;
     font-size: 1.25rem;
@@ -363,7 +367,6 @@ footer{
 /* RESPONSIVE PART */
 @media screen and (max-width: 430px) {
     /* navbar */
-   
     nav{
         border: 1px solid orange;
         margin-top: 0;
@@ -429,14 +432,19 @@ footer{
      .four-box-img{
         width: 173px;
         height: 105px;
-        margin-left: 16px;
+        width: 100%;
+        align-items: center;
      }
      .date{
         font-size: 9px;
         padding: 6px 11px;
      }
      .four-boxes-heading{
-        font-size: 9px;
+        font-size: 9px; 
+     }
+     .four-boxes-container{
+        margin-left: 16px;
+        margin-right: 16px;
      }
      /* footer part */
      .footer-section{
@@ -446,5 +454,4 @@ footer{
      .footer-descrip{
         margin-bottom: 32px;
      }
-     
 }
