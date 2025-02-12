@@ -155,7 +155,6 @@ nav{
     font-size: 1rem;
     color: #808080;
     margin-bottom: 34px;
- 
 }
 a{
     text-decoration: none;   
@@ -420,7 +419,6 @@ footer{
         align-items: center;
     }
     .class-level{
-        border: 1px solid red;
         width: 90%;
     }
     .arrow-container{
@@ -435,8 +433,6 @@ footer{
         display: block;
      }
      .four-box-img{
-        width: 173px;
-        height: 105px;
         width: 100%;
         align-items: center;
      }
