@@ -193,6 +193,92 @@ nav{
 /* button finish */
 /* Standard Curriculum finish */
 
+/* Our Stories Start */
+.our-stories-section{
+
+    /* border: 1px solid black; */
+    background: linear-gradient(to top,rgba(254, 163, 1, 0.4), transparent);
+}
+.stories-heading{
+    font-size: 2.87rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 60px 0 80px;
+}
+.stories-box-container{
+    display: flex;
+    gap: 19px;
+}
+.fun-toddler{
+    /* border: 1px solid black; */
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    /* margin: 0 18px 0 140px; */
+}
+.bg-color{
+    background-color: #ffffff;
+}
+.fun-tod-img{
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+.date-tod{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #3CD8E8;
+    /* border: 1px solid black; */
+    padding: 14px 19px;
+    border-radius: 48px;
+    margin-left: 38.35px;
+    /*  */
+}
+
+.toddler-heading{
+    padding: 33px 38px 47px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.toddler-descrip{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #666666;
+    padding: 0px 38px 34px;
+}
+.four-boxes-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 19px;
+}
+.four-box-img{
+    border-radius: 16px;
+}
+.four-boxes-heading{
+    padding: 20px 37px 28px;
+}
+.date-bg-color{
+    background-color: #95B226;
+}
+.story-2-date{
+    background-color: #5D58F0;
+}
+
+.stories-btn{
+    padding: 10px 61px;
+    margin: 80px 0 60px;
+    background-color: black;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 12px;
+    border: none;
+}
+.stories-btn-test{
+    text-align: center;
+}
+.box-5,.box-6{
+    display: none;
+}
 /* RESPONSIVE PART */
 @media screen and (max-width: 430px) {
     /* navbar */
@@ -250,4 +336,23 @@ nav{
         display: none;
     }
     /* Standard Curriculum finish*/
+     /* Our Stories Start */
+     .fun-toddler{
+        display: none;
+     }
+     .box-5,.box-6{
+        display: block;
+     }
+     .four-box-img{
+        width: 173px;
+        height: 105px;
+        margin-left: 16px;
+     }
+     .date-tod{
+    font-size: 9px;
+    padding: 6px 11px;
+     }
+     .four-boxes-heading{
+        font-size: 9px;
+     }
 }
