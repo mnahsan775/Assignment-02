@@ -222,7 +222,9 @@ nav{
     border-top-right-radius: 16px;
     border-top-left-radius: 16px;
 }
-.date-tod{
+.date{
+    position: relative;
+    top: -16px;
     font-size: 1rem;
     font-weight: 500;
     color: #ffffff;
@@ -230,8 +232,7 @@ nav{
     /* border: 1px solid black; */
     padding: 14px 19px;
     border-radius: 48px;
-    margin-left: 38.35px;
-    /*  */
+    margin-left: 39px;  
 }
 
 .toddler-heading{
@@ -278,6 +279,54 @@ nav{
 }
 .box-5,.box-6{
     display: none;
+}
+
+/* footer part start */
+footer{
+    background-color: #01ACFD;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    padding: 123px 0 174px;
+}
+.footer-heading{
+    display: flex;
+    gap: 10px;
+    color: #ffffff;
+}
+.kids-heading{
+    font-size: 2.65rem;
+}
+.footer-descrip{
+    margin-top: 35px;
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+.logo-2{
+    width: 80px;
+    height: 90px;
+}
+.part-2-heading{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+.part-3-heading{
+    font-weight: bold;
+    font-size: 1.625rem;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+
+.list{
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    list-style: none;
 }
 /* RESPONSIVE PART */
 @media screen and (max-width: 430px) {
@@ -348,11 +397,19 @@ nav{
         height: 105px;
         margin-left: 16px;
      }
-     .date-tod{
+     .date{
     font-size: 9px;
     padding: 6px 11px;
      }
      .four-boxes-heading{
         font-size: 9px;
      }
+     .footer-section{
+        flex-direction: column;
+        margin-left: 16px;
+     }
+     .footer-descrip{
+        margin-bottom: 32px;
+     }
+     
 }
